@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  font-size: 100px;
+  font-family: "Arial", sans-serif;
+  color: #fff;
+  line-height: 300px;
+  text-align: center; }
+
+.container {
+  display: grid;
+  grid: auto-flow/repeat(auto-fit, minmax(300px, 1fr)); }
+  @media (min-width: 1200px) {
+    .container {
+      grid-template-columns: repeat(3, 1fr); } }
+  .container__box {
+    height: 300px;
+    min-width: 300px; }
+    .container__box:nth-child(1) {
+      background-color: rgb(calc(255 - (51 * (1 - 1))), 0, 0); }
+    .container__box:nth-child(2) {
+      background-color: rgb(calc(255 - (51 * (2 - 1))), 0, 0); }
+    .container__box:nth-child(3) {
+      background-color: rgb(calc(255 - (51 * (3 - 1))), 0, 0); }
+    .container__box:nth-child(4) {
+      background-color: rgb(calc(255 - (51 * (4 - 1))), 0, 0); }
+    .container__box:nth-child(5) {
+      background-color: rgb(calc(255 - (51 * (5 - 1))), 0, 0); }
+    .container__box:nth-child(6) {
+      background-color: rgb(calc(255 - (51 * (6 - 1))), 0, 0); }
+
+
+/*# sourceMappingURL=/main.48b3db1d.css.map */
